@@ -2,10 +2,10 @@
   "name": "vue-mobile-waterfall",
   "version": "1.0.0",
   "description": "A mobile waterfall layout component for Vue.js",
-  "main": "index.js",
-  "author": {
-    "name": "August-Z",
-    "email": "402279076@qq.com"
+  "main": "lib/vue-mobile-waterfall.min.js",
+  "author": "August-Z <402279076@qq.com>",
+  "scripts": {
+    "build": "webpack --config build/webpack.min.conf.js"
   },
   "repository": {
     "type": "git",
@@ -26,11 +26,16 @@
     "babel-runtime": "^6.26.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "webpack": "^4.7.0"
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.3.13",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^1.12.13"
   }
 }
